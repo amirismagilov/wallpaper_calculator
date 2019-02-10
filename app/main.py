@@ -4,7 +4,7 @@ room_form_question = input('Комната прямоугольной формы
 if room_form_question == 'да' or room_form_question == 'Да':
     wall_1 = wall_2 = int(input('Введите ширину комнаты в см: '))
     wall_3 = wall_4 =  int(input('Введите длинну комнаты в см: '))
-    perimetr = perimetr_calculation(wall_1, wall_2, wall_3, wall_4)
+    perimetr = perimetr_calculation(wall_1_input, wall_2_input, wall_3_input, wall_4_input)
     print('Периметр комнаты равен ', perimetr)
 
 elif room_form_question == 'нет' or room_form_question == 'Нет' :
