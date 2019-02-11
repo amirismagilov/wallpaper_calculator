@@ -24,9 +24,9 @@ def wallpaper_column_in_each_pack_calculation(wallpaper_pack_lenght, wall_height
 
 def total_number_of_packs_calculation(number_of_columns, wallpaper_column_in_each_pack):
     """
-        >>> total_number_of_packs_calculation(35, 8)
-        5
-        """
+    >>> total_number_of_packs_calculation(35, 8)
+    5
+    """
     result = number_of_columns // wallpaper_column_in_each_pack +1
     return result
 
