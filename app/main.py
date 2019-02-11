@@ -1,4 +1,4 @@
-# from lib import perimetr_calculation, number_of_columns_calculation, wallpaper_column_in_each_pack_calculation, total_number_of_packs_calculation
+#from lib import perimetr_calculation, number_of_columns_calculation, wallpaper_column_in_each_pack_calculation, total_number_of_packs_calculation
 from lib import *
 room_form_question = input('Комната прямоугольной формы (Да/ Нет): ')
 if room_form_question == 'да' or room_form_question == 'Да':
@@ -17,6 +17,7 @@ elif room_form_question == 'нет' or room_form_question == 'Нет' :
 else:
     print ('Введено не корректное значение. Введите да или нет')
 
+
 wallpaper_column_width = int(input('Введите ширину рулона в см: '))
 # if wallpaper_column_width > perimetr:
 #      print('Введено не верное значение')
@@ -28,4 +29,4 @@ wallpaper_pack_lenght = int((input('Введите длинну рулона в 
 wallpaper_column_in_each_pack = wallpaper_column_in_each_pack_calculation(wallpaper_pack_lenght, wall_height) #количество столбцов в одном рулоне
 
 total_number_of_packs = total_number_of_packs_calculation(number_of_columns, wallpaper_column_in_each_pack) #количество рулонов
-print('Нужное количество рулонов с запасом - ', total_number_of_packs)
+print("Нужное количество рулонов с запасом - ", total_number_of_packs)

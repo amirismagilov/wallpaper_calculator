@@ -29,4 +29,3 @@ def total_number_of_packs_calculation(number_of_columns, wallpaper_column_in_eac
     """
     result = number_of_columns // wallpaper_column_in_each_pack +1
     return result
-
