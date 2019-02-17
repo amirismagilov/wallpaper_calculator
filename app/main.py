@@ -23,9 +23,6 @@ else:
 # print(perimentr)
 
 wallpaper_column_width = int(input('Введите ширину рулона в см: '))
-# if wallpaper_column_width > perimetr:
-#      print('Введено не верное значение')
-#      break()
 number_of_columns = number_of_columns_calculation(perimetr, wallpaper_column_width)
 
 wall_height = int(input('Введите высоту стен в см: '))
