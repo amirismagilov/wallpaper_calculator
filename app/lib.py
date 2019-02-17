@@ -12,7 +12,7 @@ def number_of_columns_calculation(perimetr, wallpaper_column_width):
     34
     """
     coefficent = 1.15
-    result = round((perimetr // wallpaper_column_width * coefficent))  # общее необходимое количество столбцов
+    result = round(perimetr // wallpaper_column_width * coefficent)  # общее необходимое количество столбцов
     return result
 
 def wallpaper_column_in_each_pack_calculation(wallpaper_pack_lenght, wall_height):
